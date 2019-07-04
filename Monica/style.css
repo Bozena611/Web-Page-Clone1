@@ -1,0 +1,201 @@
+ {
+   font-family: Helvetica, Arial, sans-serif;
+}
+ #wrapper {
+ 	background-color: #e1e7ee; 
+ }
+ body {
+ 	margin-right: 65px;
+ 	margin-left: 65px;
+ 	background-color: #52606F;
+ }
+ ul {
+	list-style: none;
+}
+ #navigation_bar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+#navigation_bar li {
+	display: inline-block;
+	padding: 10px;
+}
+#navigation_bar {
+	background-color: #1c87c9;
+	text-align: center;
+}
+#navigation_bar li a {
+	text-decoration: none;
+	color: white;
+}
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#title { /*NOT RESPONSIVE, STAYS THE SAME SIZE*/
+	text-align: center;
+	background-image: url("circular-economy_header.jpg");
+	/*background-image: url("circular2.jpg");*/
+	background-position: center center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: fixed;
+    height: 400px;
+    width: auto;
+    margin-bottom: 30px;
+    /*opacity: 0.65; NOT WORKING - how to make only background image transparent*/
+    /*vertical-align: text-bottom; ----not working*/
+}
+
+.text_bottom {
+	padding-top: 150px; 
+	min-width: auto;  /* NOT WORKING - NOT RESPONSIVE*/
+	min-height: auto; /* NOT WORKING - NOT RESPONSIVE*/
+	position: relative;
+	/*vertical-align: text-bottom; ----not working*/
+}
+
+
+h1 {
+	color: green;
+}
+h2 {
+	color: #14569f;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-right: 15px;
+}
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    margin: 20px 20px;
+}
+.about {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+ul.about_list {
+list-style-type: square;
+}
+
+
+.flex-container {
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 0;
+	margin:0;
+}
+.flex-item {
+	text-align: left;
+	padding: 10px;
+	margin-top: 10px;
+	border: 2px solid #51749a;
+	position: relative;
+	height: 200px;
+	width: 200px;
+}
+.phototext {
+	text-align: left;
+	padding: 10px;
+	position: relative;
+}
+#Reduce_photo {
+	display: block;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.caption {
+	background-color: rgba(250, 250, 250, 0.8);
+	padding: 5px 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	width: 73%;
+	height: 50px;
+}
+
+.Top {
+	text-align: center; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-text {
+	font-size: 20px;
+}
+.team_item {
+  float: left;
+  width: 32%;
+  margin:5px;
+}
+.Bozena {
+	margin-left: 80px;
+}
+.row {
+	margin-left: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .team_item {
+    width: 100%;
+  }
+}
+footer {
+	background-color: #1c87c9;
+	text-align: center;
+	}
+#footer {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+}
+
