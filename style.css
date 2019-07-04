@@ -134,16 +134,16 @@ list-style-type: square;
 }
 
 .caption {
-	/*background-color: rgba(250, 250, 250, 0.8);*/
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(250, 250, 250, 0.8);
+	/*background-color: rgba(0, 0, 0, 0.8);*/
 	padding: 5px 10px;
 	position: absolute;
 	bottom: 10px;
 	left: 10px;
 	width: 50%;
-	font-size: 20px;
-	color: white;
-	/*height: 50px */
+	/*font-size: 20px;
+	color: white;*/
+	height: 50px 
 }
 .Top {
 	text-align: center; 
@@ -151,7 +151,7 @@ list-style-type: square;
 	margin-bottom: 30px;
 }
 
-.grid-container {
+#projects .grid-container {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
@@ -167,6 +167,18 @@ list-style-type: square;
 }
 .grid-text {
 	font-size: 20px;
+}
+
+.grid-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+}
+.grid-photos .grid-item{
+	font-size: 15px;
 }
 .team_item {
   float: left;
