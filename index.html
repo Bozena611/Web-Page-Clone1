@@ -5,8 +5,9 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 	</head>
-<div id="wrapper">
 	<body>
+	<div id="wrapper">
+	
 		<header>
 			<div id="navigation_bar">
 				<ul>
@@ -18,9 +19,9 @@
 			</div>
 			<div id="title"> <!--NOT RESPONSIVE-->
 				<div class="text_bottom">
-				<h1>Circular Economy</h1>
-				<h2 id="Invitation">Join us in changing the world</h2>
-				<a href="#projects" class="button">Our Projects</a>
+					<h1>Circular Economy</h1>
+					<h2 id="Invitation">Join us in changing the world</h2>
+					<a href="#projects" class="button">Our Projects</a>
 				</div>
 			</div>
 		</header>
@@ -44,21 +45,30 @@
 				<li>Communications</li>
 		</div>
 		</div>
-		<div id="gallery"> <!--CAPTIONS do not work, trying to put text inside the first photo but it is outside of border; and want to put the other 3 captions to the right of each photo-->
-			<h2>The R Family</h2>
-			<p class="Top"><a href="#navigation_bar">Top</a></p>
-			<div class="phototext">
-			<img id="Reduce_photo" src="Reduce.jpg" alt="Reduce" width= 80% height="40%"><span class="caption">We can reduce what is produced and what is used</span>
-			</div>
-			<ul class="flex-container">
-				<li class="flex-item">
-					<img src="Reuse.jpeg" alt="Reuse">
+
+		<div id="The R Family">
+				<h2>The R Family</h2>
+				<p class="Top"><a href="#navigation_bar">Top</a></p>
+			<div class="grid-principles">
+				<div class="grid R" id="Reduce">
+					<img id="Reduce_photo" src="Images/Reduce.jpg" alt="Reduce" width= 80% height="40%">
+					<span class="caption">We can reduce what is produced and what is used</span>
+				</div>
+	  			<div class="grid R" id="Reuse">
+	  				<img src="Images/Reuse.jpeg" alt="Reuse">
 					<span class="caption">Reuse products or components instead of throwing them away</span>
-				</li>
-				<li class="flex-item"><img src="Redesign.jpg" alt="Redesign"><span class="caption">Redesign products and components so that they can be reused, repaired and remanufactured.</span></li>
-				<li class="flex-item"><img src="Reinvent2.png" alt="Reinvent"><span class="caption">Reinvent the way we make and use products</span></li>
-			</ul>
-		</div>
+	  			</div>
+	  			<div class="grid R" id="Redesign">
+	  				<img src="Images/Redesign.jpg" alt="Redesign">
+					<span class="caption">Redesign products and components so that they can be reused, repaired and remanufactured.</span>
+	  			</div>  
+	  			<div class="grid R" id="Reinvent">
+	  				<img src="Images/Reinvent2.png" alt="Reinvent">
+					<span class="caption">Reinvent the way we make and use products</span>
+	  			</div>
+	  		</div>
+	  	</div>
+
 		<div id="projects">
 			<h2>Join our Projects</h2> 
 			<div class="Top">
@@ -68,114 +78,59 @@
 				
 				<div class="grid-item">
 					<p>CE 100</p>
-					<a href="https://www.ellenmacarthurfoundation.org/our-work/activities/food"><img src="CE100-blue.jpg" alt="CE100"></a>
-				<p class="grid-text">The world’s leading circular economy network which provides a pre-competitive space to learn, share knowledge, and build new collaborative approaches.</p>
-			  </div>
-			  <div class="grid-item">
+					<a href="https://www.ellenmacarthurfoundation.org/our-work/activities/food"><img src="Images/CE100-blue.jpg" alt="CE100"></a>
+					<p class="grid-text">The world’s leading circular economy network which provides a pre-competitive space to learn, share knowledge, and build new collaborative approaches.</p>
+			  	</div>
+			  	<div class="grid-item">
 					<p>Food Initiative</p>
-					<a href="https://www.ellenmacarthurfoundation.org/our-work/activities/food"><img src="Food_Infographic_web.jpg" alt="Food Circular"></a>
-				<p class="grid-text">Let's stimulate a global shift towards a regenerative food system based on the principles of a circular economy.</p>
-			  </div>
-			  <div class="grid-item">
+					<a href="https://www.ellenmacarthurfoundation.org/our-work/activities/food"><img src="Images/Food_Infographic_web.jpg" alt="Food Circular"></a>
+					<p class="grid-text">Let's stimulate a global shift towards a regenerative food system based on the principles of a circular economy.</p>
+			  	</div>
+			  	<div class="grid-item">
 					<p>Make Fashion Circular</p>
-					<a href="https://www.ellenmacarthurfoundation.org/our-work/activities/make-fashion-circular"><img src="Make Fashion circular.jpg" alt="Fashion Circular"></a>
+					<a href="https://www.ellenmacarthurfoundation.org/our-work/activities/make-fashion-circular"><img src="Images/Make Fashion circular.jpg" alt="Fashion Circular"></a>
 					<p class="grid-text">For fashion to thrive in the future, we must join forces and design a circular economy for clothes</p>
-			  </div>
-			  <div class="grid-item">
+			  	</div>
+			  	<div class="grid-item">
 					<p>New Plastics Economy</p>
-					<a href="https://www.ellenmacarthurfoundation.org/our-work/activities/new-plastics-economy"><img src="New Plastics Economy.png" alt="New Plastics Economy"></a>
+					<a href="https://www.ellenmacarthurfoundation.org/our-work/activities/new-plastics-economy"><img src="Images/New Plastics Economy.png" alt="New Plastics Economy"></a>
 					<p class="grid-text">The New Plastics Economy is an initiative to build momentum towards a plastics system that works. Applying the principles of the circular economy, it brings together key stakeholders to rethink and redesign the future of plastics, starting with packaging.</p>
-			  </div>
-			  </div>
+			  	</div>
+		</div>
 			
-			<!--<ul>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-			</ul><-->
+			
 		</div>
 		<div id="team">
 			<h2>Our Team</h2> <!--the images are responsive but when window really small they go outside of body border-->
 			<p class="Top"><a href="#navigation_bar">Top</a></p>
-			
-			<!--<div class="team_container">
-
-				<div class="row">
-
-				  <div class="team_item">
-				  	  <img src="Ellen_MacArthur1.jpg" alt="Ellen MacArthur">
-				  	  <p>FOUNDER & CHAIR OF TRUSTEES</p>
-				  </div>
-
-				  <div class="team_item">
-				  	  <img src="Andrew Morlet2.png" alt="Andrew Morlet">
-				  	  <p>CHIEF EXECUTIVE</p>
-				  </div>
-
-				  <div class="team_item">
-				  	   <img src="Philip_Sellwood3.jpg" alt="Philip Sellwood">
-				  	   <p>TRUSTEE & CHIEF EXECUTIV
-				  	   E OF THE ENERGY SAVING TRUST</p>
-				  </div>
-
-				</div>
-
-				<div class="row">
-				  <div class="team_item"><img src="Peter_Morgan4.jpg" alt="Peter Morgan">
-				  	<p>TRUSTEE & COMMUNICATIONS CONSULTANT</p>
-				  </div>
-				  <div class="team_item"><img src="Michael Lebovitz5.png" alt="Michael Lebovitz">
-				  	<p>TRUSTEE & PARTNER</p>
-				  </div>
-				  <div class="team_item">
-				  	<div class="Bozena"><img src="photo Bozena.png" alt="Bozena Vuckovic" width=65.5% height=100%>
-				  	<p>CIRCULAR ECONOMY ENTHUSIAST AND FUTURE COLLABORATOR</p>
-				  	</div>
-				  </div>
-				</div>-->
-			</div>
+		</div>
 
 			<div class="grid-photos">
 				<div class="grid-item" id="item1">
-					<img src="Ellen_MacArthur1.jpg" alt="Ellen MacArthur">
+					<img src="Images/Ellen_MacArthur1.jpg" alt="Ellen MacArthur">
 				  	<p>FOUNDER & CHAIR OF TRUSTEES</p>
 				</div>
 				<div class="grid-item item2">
-					<img src="Andrew Morlet2.png" alt="Andrew Morlet">
+					<img src="Images/Andrew Morlet2.png" alt="Andrew Morlet">
 				  	<p>CHIEF EXECUTIVE</p>
 				</div>
 				<div class="grid-item item3">
-					<img src="Philip_Sellwood3.jpg" alt="Philip Sellwood">
+					<img src="Images/Philip_Sellwood3.jpg" alt="Philip Sellwood">
 				  	<p>TRUSTEE & CHIEF EXECUTIVE OF THE ENERGY SAVING TRUST</p>
 				</div>
 				<div class="grid-item item4">
-					<img src="Peter_Morgan4.jpg" alt="Peter Morgan">
+					<img src="Images/Peter_Morgan4.jpg" alt="Peter Morgan">
 				  	<p>TRUSTEE & COMMUNICATIONS CONSULTANT</p>
 				</div>
 				<div class="grid-item item5">
-					<img src="Michael Lebovitz5.png" alt="Michael Lebovitz">
+					<img src="Images/Michael Lebovitz5.png" alt="Michael Lebovitz">
 				  	<p>TRUSTEE & PARTNER</p>
 				</div>
 				<div class="grid-item item6">
-					<img src="Suki_BW6.jpg" alt="Soukeyna Gueye"> 
+					<img src="Images/Suki_BW6.jpg" alt="Soukeyna Gueye"> 
 				  	<p>RESEARCH ANALYST, CHINA</p>
 				</div>
 			</div>
-			<!--<div class="row">
-  <div class="column"></div>
-  <div class="column"></div>
-  <div class="column"></div>
-</div>
-
-			<ul>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-			</ul><-->
 		</div>
 	<footer>
 		<div id="footer">
@@ -185,6 +140,6 @@
 		<p>Just Coding, no bull*hit!</p>
 		</div>
 	</footer>
+	</div>
 	</body>
-</div>
 </html>
